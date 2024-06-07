@@ -193,7 +193,13 @@ body {
     }
 
     .cabecalho__menu{
+       
         justify-content: center;
+    }
+    
+    .cabecalho__menu__link{
+        font-size: 15px;
+       
     }
 
 

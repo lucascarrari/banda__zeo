@@ -75,9 +75,7 @@
 }
 
 @media (max-width: 1120px){
-    .cabecalho .logo{
-        max-width: 190px;
-    }
+  
 
     .selecao-de-personagens{
         flex-direction: column-reverse;
@@ -98,12 +96,12 @@
     }
 
     .selecao-de-personagens .personagem img{
-        width: 80px;
+        width: 110px;
+		
     }
 
     .personagem-selecionado .personagem-grande{
-        width: 350px;
-        height: 350px;
+       max-width: 300px;
     }
 
     .personagem-selecionado .descricao-personagem{
