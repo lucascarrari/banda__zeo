@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Definindo o conjunto de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração de viewport para dispositivos móveis -->
+    <title>Banda Zeo</title> <!-- Título da página -->
+    <link rel="stylesheet" href="./css/styles.css"> <!-- Importando o arquivo de estilo externo -->
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Nós</a>
+            <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+        </nav>
+    </header> <!-- Cabeçalho -->
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+          <h1 class="titulo">Conheça nossa banda</h1>
+          <ul class="lista-de-personagens">
+            <li class="personagem selecionado" id="zeo" data-name="Banda Zeo" data-description="A Banda Zeo foi criada em 2024, tem a missão evangelística de levar a bondade e o amor de Deus ao mundo através da música.">
+              <img
+                src="./src/imagens/card-zeo.jpeg"
+                alt="Foto Banda"
+              />
+            </li>
+            <li class="personagem" id="lucas" data-name="Lucas " data-description="Baixista da banda, criado desde pequeno na igreja, filho de pastor, Lucas cresceu no ministerio de louvor de sua igreja.">
+              <img
+                src="./src/imagens/card-lucas.jpeg"
+                alt="Foto Lucas"
+              />
+            </li>
+  
+            <li class="personagem" id="wesley" data-name="Wesley Gibson" data-description="Vocalista da Banda, acostumado a cantar na noite carioca com sua voz potente e timbre cheio de drive, Wesley decidiu usar seu dom para falar do amor de Deus.">
+              <img
+                src="./src/imagens/card-wesley.jpeg"
+                alt="Foto Wesley"
+              />
+            </li>
+  
+            <li class="personagem" id="leo" data-name="Leo" data-description="Baterista da Banda, Leo sempre teve o amor pelo evangelismo e por pregar a palavra de Deus, usa o som de seus tambores para sacudir o inferno e povoar os Céus.">
+              <img
+                src="./src/imagens/card-leo.jpeg"
+                alt="Foto Leo"
+              />
+            </li>
+  
+            <li class="personagem" id="kako" data-name="Kako" data-description="Guitarrista da Banda, Kassiano sempre quis atuar com a música para levar o amor que o salvou para que todos conheçam.">
+              <img
+                src="./src/imagens/card-kako.jpeg"
+                alt="Foto Kassiano"
+              />
+            </li>
+  
+           
+          </ul>
+        </section>
+        <section class="personagem-selecionado">
+          <img
+            class="personagem-grande"
+            src="./src/imagens/Zeo Cinza Corrigido.png"
+            alt="Personagem Selecionado"
+          />
+  
+          <div class="informacoes-personagem">
+            <h2 class="nome-personagem" id="nome-personagem"></h2>
+            <p class="descricao-personagem" id="descricao-personagem">
+            
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <script src="./js/about.js"></script>
+   
+    <footer>
+        <p class="rodape">Desenvolvido por Lucas Carrari</p>
+    </footer> <!-- Rodapé -->
+</body>
+</html>
